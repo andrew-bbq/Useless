@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<header>
+    <title>thejoke.html</title>
+</header>
+<body style="text-align: center; padding-top: 45vh;">
+    <a id="link" onclick="showJoke()">Click here</a>
+    <h1 id="joke" style="display: none; margin-top: -10px;">You</h1>
+</body>
+<script>
+    function showJoke() {
+        document.getElementById("link").style.display = "none";
+        document.getElementById("joke").style.display = "block";
+    }
+</script>
